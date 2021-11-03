@@ -1,2 +1,13 @@
 # datatest
-Automated warehouse testing of big data can be used to detect irre- gularities during the extraction, transformation and loading process. This work presents an implementation in the Apache ecosystem (Airflow, Kylin and Super- set) of data-centric testing. The measures and variables involved in the tests are persisted using a dimensional model that allows the generation of histori- cal reports. The main test implemented compares model entities through SQL queries to count rows. Tests are automated by the Apache Airflow application, the results are persisted in the Apache Kylin environment and their analysis is facilitated by dashboards/graphs generated in the Apache Superset software.
+Os testes automáticos em armazém (com volumes gigantescos) de dados 
+podem ser usados para detecção de não-conformidades
+durante o processo de extração, transformação e carga.
+O presente trabalho apresenta uma implementação no ecossistema Apache
+(Airflow, Kylin e Superset) de testes centrados em dados.
+As medidas e variáveis envolvidas nos testes são persistidas em
+um modelo dimensional que permite a geração de relatórios históricos.
+O principal teste implementado compara entidades do modelo
+através de consultas SQL para contagem de linhas.
+Os testes são automatizados pela aplicação Apache Airflow, 
+os resultados dos testes são persistidos no ambiente Apache Kylin e a análise dos mesmos é facilitada por painéis/gráficos 
+gerados no software Apache Superset.
