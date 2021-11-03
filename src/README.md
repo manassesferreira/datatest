@@ -1,4 +1,4 @@
-Na pasta bulding estão os detalhes para construção das imagens utilizadas para airflow e superset.
+Na pasta building estão os detalhes para construção das imagens utilizadas para airflow e superset.
 Bem como a instrução para baixar a imagem do kylin.
 
 Em instantiating estão as instruções para instanciar as imagens.
